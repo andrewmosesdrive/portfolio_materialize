@@ -5,16 +5,16 @@ nav {
     z-index: 99999999;
 }
 
-h3 {
-    color: #BB86FC;
+.page-title {
+    color: #dabffc;
 }
 
 .sidenav {
-    background-color: #BB86FC ;
+    background-color: #dabffc ;
 }
 
 #sidenav-proc {
-    color: #bb86fc;
+    color: #dabffc;
     font-size: 35px;
     margin-top: 25px;
     margin-left: 20px;
@@ -26,5 +26,14 @@ body {
 
 .words {
     color: #eeeeee;
+}
+
+.carousel {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    min-width: 500px;
 }
 
