@@ -2,11 +2,26 @@ nav {
     margin-bottom: 50px;
 }
 .nav-wrapper {
+    z-index: 99999999;
+}
+
+h3 {
+    color: #BB86FC;
+}
+
+.sidenav {
     background-color: #BB86FC ;
 }
 
-.icon-black {
-    color: black;
+#sidenav-proc {
+    color: #bb86fc;
+    font-size: 35px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.938);
 }
 
 .words {

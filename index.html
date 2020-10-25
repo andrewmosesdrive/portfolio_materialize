@@ -16,17 +16,17 @@
     />
     <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
-  <body class="black">
+  <body>
     <!-- Navbar -->
-    <nav>
+    <nav class="transparent z-depth-0">
       <div class="nav-wrapper">
-        <a href="index.html" class="brand-logo center black-text">About</a>
+        <a href="index.html" class="brand-logo center "><h3>About</h3></a>
 
         <a
           href="#"
           data-target="slide-out"
           class="sidenav-trigger show-on-large"
-          ><i class="material-icons icon-black">arrow_drop_down_circle </i></a
+          ><i class="material-icons" id="sidenav-proc">info_outline</i></a
         >
       </div>
     </nav>
@@ -36,51 +36,42 @@
           <div class="background">
             <img src="" />
           </div>
-          <a href="#user"
-            ><img
-              class="responsive-img circle"
-              src="/assets/profile-photo.jpeg"
-          /></a>
-          <a href="#name"><span class="black-text name">Andrew Moses</span></a>
+          <span class="black-text name center"><h2>Andrew Moses</h2></span>
         </div>
       </li>
-      <li>
-        <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
-      </li>
-      <li><a href="#!">Second Link</a></li>
       <li><div class="divider"></div></li>
-      <li><a class="subheader">Subheader</a></li>
-      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+      <li>
+        <a href="#!" class="waves-effect"><i class="material-icons">person</i>About</a>
+      </li>
+      <li><div class="divider"></div></li>
+      <li>
+        <span class="center"><h5>Web Development</h5></span>
+      </li>
+      <li><a href="#!" class="waves-effect"><i class="material-icons">work</i>Portfolio</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">contact_mail</i> Contact</a></li>
+      <li><div class="divider"></div></li>
+      <li>
+        <span class="center"><h5>Writing/Publishing</h5></span>
+      </li>
+      <li><a href="#!" class="waves-effect"><i class="material-icons">monetization_on</i>Order from Amazon</a></li>
+      <li><a class="waves-effect" href="#!"><i class="material-icons">thumb_up</i>View on Instagram</a></li>
+      <li><div class="divider"></div></li>
     </ul>
 
     <!-- Main Content -->
-    <div class="row">
-      <div class="col s10 offset-s1 m4 offset-m1">
-        <div class="card-image">
-          <img src="/assets/profile-photo.jpeg" class="responsive-img" />
-        </div>
-      </div>
-      <br />
-      <div class="col s10 offset-s1 m6">
-        <div class="row">
-          <h3 class="header white-text center-align">Andrew Moses</h3>
-        </div>
-        <div class="row">
+    <div class="container">
+      <div class="row">
+        <div class="col s10 offset-s1 m8 offset-m2 l6">
           <div class="card">
+            <div class="card-image">
+              <img src="/assets/profile-photo.jpeg">
+            </div>
+          </div>
+        </div>
+        <div class="col s10 offset-s1 m8 offset-m2 l6">
+          <div class="card grey darken-4">
             <div class="card-content grey darken-4 white-text">
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt totam quae eius, eos repudiandae in, consequatur
-                laudantium molestias vero enim ut molestiae culpa suscipit sunt
-                aliquid dolor fugit? Magnam, quae? Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Tempora ea quae tempore, dolor
-                blanditiis ducimus molestias ipsam fugit, rem enim suscipit quo
-                dolore deleniti, iure optio sit! Magnam, quis ipsum? Lorem,
-                ipsum dolor sit amet consectetur adipisicing elit. Eius eum
-                dicta porro nostrum sequi, sed modi consequatur itaque iusto
-                odit. Voluptas voluptatibus eveniet temporibus voluptates
-                repellendus perferendis soluta, perspiciatis tempore.
-              </p>
+              <p class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus alias molestiae tempora ullam optio harum perspiciatis ratione dolorem illo quidem nulla eveniet architecto, reprehenderit aperiam? Cupiditate autem fuga aliquid ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime facere cumque ipsum deserunt nemo perferendis nobis itaque. Tempore molestiae repellendus consequatur, repellat fugiat eius facilis? Quisquam fuga quos alias numquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa quia alias repudiandae quo velit nulla, doloremque ipsa totam officiis esse amet, harum voluptatem, in hic ex? Unde, sapiente magnam.</p>
             </div>
           </div>
         </div>
