@@ -24,10 +24,6 @@ body {
     background-color: rgba(0, 0, 0, 0.938);
 }
 
-.words {
-    color: #eeeeee;
-}
-
 .carousel {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -35,5 +31,9 @@ body {
 
 .carousel-item {
     min-width: 500px;
+}
+
+.material-icons {
+    color: #dabffc;
 }
 
