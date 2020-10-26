@@ -24,9 +24,14 @@ body {
     background-color: rgba(0, 0, 0, 0.938);
 }
 
+.swipe-text {
+    color: #dabffc;
+}
+
 .carousel {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .carousel-item {
