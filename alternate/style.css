@@ -1,0 +1,16 @@
+body {
+    background: -webkit-linear-gradient(to right, #D4D3DD, #bbe7ef);
+    background: linear-gradient(to right, #D4D3DD, #bbe7ef);
+}
+
+/* .carousel {
+    margin-bottom: 40px;
+} */
+
+.carousel-item {
+    min-width: 400px;
+}
+
+.section-heading {
+    color: rgb(51, 51, 51);
+}
